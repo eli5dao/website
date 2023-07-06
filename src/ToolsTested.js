@@ -3,6 +3,7 @@ import colonyTested from "./images/colonytested.jpg";
 import samudaiTested from "./images/samudaitested.jpg";
 import commongroundTested from "./images/cgtested.jpg";
 import daohausTested from "./images/daohaus.jpg";
+import aragon from "./images/aragon.jpg";
 
 export default function ToolsTested() {
   return (
@@ -50,14 +51,22 @@ export default function ToolsTested() {
             />
           </a>
         </div>
-        <div className="col-md-4"></div>
         <div className="col-md-4">
-          <a href="https://daohaus.club/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.decentralist.com/list-of-dao-tools/dao-haus"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={daohausTested}
               alt="daohaus tested logo"
               className="tools-image"
             />
+          </a>
+        </div>
+        <div className="col-md-4">
+          <a href="https://aragon.org/" target="_blank" rel="noreferrer">
+            <img src={aragon} alt="aragon logo" className="tools-image" />
           </a>
         </div>
       </div>
