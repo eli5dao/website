@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import logo from "./images/logotag.png";
+import Gitcoinlogo from "./images/Gitcoin.png";
 
 import SocialLinks from "./SocialLinks";
 import charmverseLogo from "./images/charmverse.jpeg";
@@ -26,6 +27,27 @@ export default function App() {
           <img src={logo} alt="ELI5 Logo" className="logo-image img-fluid" />
         </div>
         <SocialLinks />
+        <div class="mt-2 mb-4">
+          {" "}
+          <strong>
+            👇 Support our mission during Gitcoin Grants 18! Click here to
+            donate 👇
+          </strong>
+          <a
+            href="https://community.gitcoin.co/community-portals/gitcoin-grants-donor-portal"
+            target="_blank"
+            rel="noreferrer"
+            title="Gitcoin Grant Portal"
+          >
+            {" "}
+            <img
+              src={Gitcoinlogo}
+              alt="Gitcoin Grants Logo"
+              class="gitcoin-logo"
+            ></img>
+          </a>
+        </div>
+
         <div className="d-grid gap-2 col-8 mx-auto">
           <a
             href="https://app.charmverse.io/invite/4c890f"
