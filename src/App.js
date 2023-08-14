@@ -32,7 +32,8 @@ export default function App() {
           <strong>
             👇 Help us further our mission during Gitcoin Grants 18: Click here
             to donate 👇
-          </strong>
+          </strong>{" "}
+          <br />
           <a
             href="https://community.gitcoin.co/community-portals/gitcoin-grants-donor-portal"
             target="_blank"
