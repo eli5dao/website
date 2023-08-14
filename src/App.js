@@ -8,7 +8,7 @@ import charmverseLogo from "./images/charmverse.jpeg";
 import colonyLogo from "./images/colony.png";
 import snapshotLogo from "./images/snapshot.jpeg";
 import ToolsTested from "./ToolsTested";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
 import Footer from "./Footer";
 
@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div className="App links-body container mb-5">
       <div className="links-page justify-content-center">
-        <div className="logo-container">
+        <div className="logo-container mt-2">
           {" "}
           <h1 className="d-none">
             ELI5 DAO stands for Explain It Like I am Five years old -
