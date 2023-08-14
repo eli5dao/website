@@ -30,8 +30,8 @@ export default function App() {
         <div class="mt-2 mb-4">
           {" "}
           <strong>
-            👇 Support our mission during Gitcoin Grants 18! Click here to
-            donate 👇
+            👇 Help us further our mission during Gitcoin Grants 18: Click here
+            to donate 👇
           </strong>
           <a
             href="https://community.gitcoin.co/community-portals/gitcoin-grants-donor-portal"
@@ -45,7 +45,11 @@ export default function App() {
               alt="Gitcoin Grants Logo"
               class="gitcoin-logo"
             ></img>
-          </a>
+          </a>{" "}
+          <br />
+          <strong>
+            <em>🙏🏼 Thank you for your support! 💛</em>
+          </strong>
         </div>
 
         <div className="d-grid gap-2 col-8 mx-auto">
