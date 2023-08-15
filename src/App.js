@@ -35,7 +35,7 @@ export default function App() {
           </strong>{" "}
           <br />
           <a
-            href="https://community.gitcoin.co/community-portals/gitcoin-grants-donor-portal"
+            href="https://explorer.gitcoin.co/#/round/10/0x2871742b184633f8dc8546c6301cbc209945033e/0x2871742b184633f8dc8546c6301cbc209945033e-82"
             target="_blank"
             rel="noreferrer"
             title="Gitcoin Grant Portal"
