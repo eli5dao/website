@@ -27,7 +27,7 @@ export default function App() {
           <img src={logo} alt="ELI5 Logo" className="logo-image img-fluid" />
         </div>
         <SocialLinks />
-        <div class="mt-2 mb-4">
+        <div class=" d-none mt-2 mb-4">
           {" "}
           <strong>
             👇 Help us further our mission during Gitcoin Grants 18: Click here
