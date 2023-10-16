@@ -4,6 +4,7 @@ import samudaiTested from "./images/samudaitested.jpg";
 import commongroundTested from "./images/cgtested.jpg";
 import daohausTested from "./images/daohaus.jpg";
 import aragon from "./images/aragon.jpg";
+import hats from "./images/hats.jpg";
 
 export default function ToolsTested() {
   return (
@@ -67,6 +68,15 @@ export default function ToolsTested() {
         <div className="col-md-4">
           <a href="https://aragon.org/" target="_blank" rel="noreferrer">
             <img src={aragon} alt="aragon logo" className="tools-image" />
+          </a>
+        </div>
+        <div className="col-md-4">
+          <a
+            href="https://www.hatsprotocol.xyz/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={hats} alt="hats logo" className="tools-image" />
           </a>
         </div>
       </div>
