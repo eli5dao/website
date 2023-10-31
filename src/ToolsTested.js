@@ -66,7 +66,11 @@ export default function ToolsTested() {
           </a>
         </div>
         <div className="col-md-4">
-          <a href="https://aragon.org/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.decentralist.com/list-of-dao-tools/aragon"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={aragon} alt="aragon logo" className="tools-image" />
           </a>
         </div>
