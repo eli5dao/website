@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import PrivacyPolicy from "./PrivacyPolicy";
 import TermsService from "./TermsService";
 import ScrollToTop from "./ScrollToTop";
+import UnderConstruction from "./UnderContruction";
 
 export default function Website() {
   return (
@@ -15,6 +16,7 @@ export default function Website() {
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termsservice" element={<TermsService />} />
+        <Route path="/underconstruction" element={<UnderConstruction />} />
       </Routes>
       <ScrollToTop />
     </div>

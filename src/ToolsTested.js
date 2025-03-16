@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import colonyTested from "./images/colonytested.jpg";
 import samudaiTested from "./images/samudaitested.jpg";
 import commongroundTested from "./images/cgtested.jpg";
@@ -14,74 +15,50 @@ export default function ToolsTested() {
       </h5>
       <div className="row ">
         <div className="col-md-4">
-          <a
-            href="https://www.decentralist.com/list-of-dao-tools/colony"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/underconstruction">
             <img
               src={colonyTested}
               alt="Colony tested logo"
               className="tools-image"
             />
-          </a>
+          </Link>
         </div>
         <div className="col-md-4 ">
-          <a
-            href="https://www.decentralist.com/list-of-dao-tools/samudai"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/underconstruction">
             <img
               src={samudaiTested}
               alt="samudai tested logo"
               className="tools-image"
             />
-          </a>
+          </Link>
         </div>
         <div className="col-md-4">
-          <a
-            href="https://www.decentralist.com/list-of-dao-tools/common-ground"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/underconstruction">
             <img
               src={commongroundTested}
               alt="common ground tested logo"
               className="tools-image"
             />
-          </a>
+          </Link>
         </div>
         <div className="col-md-4">
-          <a
-            href="https://www.decentralist.com/list-of-dao-tools/dao-haus"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/underconstruction">
             <img
               src={daohausTested}
               alt="daohaus tested logo"
               className="tools-image"
             />
-          </a>
+          </Link>
         </div>
         <div className="col-md-4">
-          <a
-            href="https://www.decentralist.com/list-of-dao-tools/aragon"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/underconstruction">
             <img src={aragon} alt="aragon logo" className="tools-image" />
-          </a>
+          </Link>
         </div>
         <div className="col-md-4">
-          <a
-            href="https://www.hatsprotocol.xyz/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/underconstruction">
             <img src={hats} alt="hats logo" className="tools-image" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
