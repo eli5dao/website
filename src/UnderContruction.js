@@ -18,8 +18,10 @@ export default function UnderConstruction() {
 
         <h6 className="mt-5">
           {" "}
-          🛠️ The ELI5 review page is under construction. Check back soon for
-          updates! 🛠️{" "}
+          <strong>
+            🛠️ The ELI5 review page is under construction. Check back soon for
+            updates! 🛠️
+          </strong>{" "}
         </h6>
         <img
           src={slurtleConstruction}
@@ -29,13 +31,6 @@ export default function UnderConstruction() {
 
         <div className="redirection-link m-5">
           <Link to="/">Return to ELI5 Homepage</Link>
-          <div>
-            <img
-              src={slurtle}
-              alt="ELI5 DAO mascot"
-              className="disclaimers-mascot"
-            />
-          </div>
         </div>
       </div>
     </div>

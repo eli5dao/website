@@ -17,6 +17,10 @@ a:hover {
   color: var(--tertiary-color);
 }
 
+h6 {
+  color: #cb0101;
+}
+
 .logo-image {
   height: 180px;
 }
